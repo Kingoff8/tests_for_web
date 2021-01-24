@@ -1,6 +1,8 @@
-# PageObjectStepik
-Тесты для ревью запускаются командой:
+# Page Object
+Установка зависимостей:
+<code>pip install -r requirements.txt</code>
 
+Тесты для ревью запускаются командой:
 <code>pytest -v --tb=line --language=en -m need_review</code>
 
 Тестировались на:
