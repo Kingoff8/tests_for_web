@@ -13,8 +13,9 @@ class BasketPage(BasePage):
         assert "Your basket is empty" in cart.text
 
     def should_be_cart_page(self):
-        assert "/en-gb/basket/" in self.browser.current_url, \
-            "May be not 'card/basket' page"
+        assert "/basket/" in self.browser.current_url, \
+            "May be not 'card/basket' page or language not en"
+        
 
     def should_not_be_items_in_cart(self):
         assert self.is_not_element_present(*CartLocators.ITEMS_IN_CART), \

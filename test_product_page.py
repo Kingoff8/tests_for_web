@@ -1,11 +1,11 @@
-import pytest
 import time
+import pytest
 from .pages.product_page import ProductPage
 from .pages.login_page import LoginPage
 from .pages.basket_page import BasketPage
 
 
-#@pytest.mark.user_register
+@pytest.mark.user_register
 class TestUserAddToCartFromProductPage(object):
     @pytest.fixture(scope="function", autouse=True)
     def setup(self, browser):
