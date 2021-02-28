@@ -1,4 +1,8 @@
 # Page Object
+Репозиторий для курса Автоматизация тестирования с помощью python и selenium.
+
+В коде нет комментариев, так как важно была только практическая часть и решения.
+
 Установка зависимостей:
 <code>pip install -r requirements.txt</code>
 
@@ -7,11 +11,11 @@
 
 Если при запуске ошибка импорта
 <code>ImportError:</code>
-убедитесь, что в корне проекта есть файл:
-<code>__init__.py</code>
-и удалите точки перед <code>pages</code> в импортах файлов test_main_page.py и test_product_page.py. Это не ошибка!
+Удалите точки перед <code>pages</code> в импортах файлов test_main_page.py и test_product_page.py. Это не ошибка!
 Такое случается из-за несовместимости обработки путей разных ОС.
 
 Тестировалось на:
 Python 3.8.5<br>
-Linux Mint 20 х64 
+Linux Mint 20 х64
+
+
